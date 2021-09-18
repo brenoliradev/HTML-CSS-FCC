@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/specimen/Hahmlet" rel="stylesheet" type="text/css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">A random survey</h1>
+        <p id="description">a brief explain</p>
+    </header>
+
+    <main>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" class="paragraph">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name:" required>
+            </div>
+
+            <div class="form-group">
+                <label id="email-label" class="paragraph">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email:" required>
+            </div>
+
+            <div class="form-group">
+                <label id="number-label" class="paragraph">Age:</label>
+                <input type="number" min="10" max="99" name="age" id="number" placeholder="Enter your age:" required>
+            </div>
+
+            <div>
+                <p class="paragraph">Pick one:</p>
+                <label>
+                    <input name="user-recommend" value="1a" type="radio" class="input-radio" checked>Pick
+                </label>
+
+                <label>
+                    <input name="user-recommend" value="2a" type="radio" class="input-radio">Pick
+                </label>
+
+                <label>
+                    <input name="user-recommend" value="3a" type="radio" class="input-radio">Pick
+                </label>
+            </div>
+
+            <div>
+                <p class="paragraph">Check all you want:</p>
+                <label>
+                    <input name="checkbox" type="checkbox"  class="checkbox" value="a">Pick
+                </label>
+                <label>
+                    <input name="checkbox" type="checkbox"  class="checkbox" value="b">Pick
+                </label>
+                <label>
+                    <input name="checkbox" type="checkbox"  class="checkbox" value="c">Pick
+                </label>
+                <label>
+                    <input name="checkbox" type="checkbox" class="checkbox" value="d">Pick
+                </label>
+                <label>
+                    <input name="checkbox" type="checkbox"  class="checkbox" value="e">Pick
+                </label>
+                <label>
+                    <input name="checkbox" type="checkbox"  class="checkbox" value="f">Pick
+                </label>
+            </div>
+
+            <div>
+                <p class="paragraph">Choose one:</p>
+                <select id="dropdown" name="dropdown" required>
+                    <option disabled selected value class="paragraph">Select a option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+
+            <div>
+                <p class="paragraph">Insert your comments or sugestions here:</p>
+                <textarea class="textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+
+            <div>
+                <button id="submit" type="submit" name="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</HTML>

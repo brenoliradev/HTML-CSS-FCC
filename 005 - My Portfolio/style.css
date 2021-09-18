@@ -1,0 +1,229 @@
+/* to set font sizes and media queries, but need the text to do it */
+
+/* preset starts */
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    min-height: 100vh;
+    background-color: #005ce9;
+    background-image: linear-gradient(160deg, #005ce9 0%, #80c1d0 100%);
+}
+
+/* navbar starts */
+
+#navbar 
+{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 60px;
+    background: #f2f2f2;
+    color: rgba(0,0,16,1);
+    padding: 10px;
+    z-index: 10;
+}
+
+.nav-bar-link
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.nav-bar-link:hover
+{
+    background-color: #89d4e6;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+/* section intro starts */
+
+#welcome-section
+{
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome-section h1
+{
+    font-size: 7rem;
+    color: #f2f2f2;
+    font-weight: 500;
+}
+
+#welcome-section p
+{
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #f2f2f2;
+}
+
+/* section about starts */
+
+#about 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+#about-text 
+{
+    width: 60%;
+}
+
+#about-png
+{
+    width: 35%;
+}
+
+#about h2 
+{
+    font-size: 3rem;
+    color: #f2f2f2;
+    font-weight: 400;
+}
+
+#about p
+{
+    font-size:1.6rem;
+    font-weight: 200;
+    color: #f2f2f2;
+    text-align: left;
+}
+
+/* section project starts */
+
+#projects 
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+#projects::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100vh;
+    border-radius: 50%;
+    transform-origin: top;
+    transform: translateX(-50%) scale(12);
+    background: rgba(0,0,16,1);
+} 
+
+.project-tile
+{
+  color: #f2f2f2;
+  font-size: 20px;
+  z-index: 9;
+}
+
+/* section contact starts */
+
+#contact
+{
+    background: rgba(0,0,16,1);
+    min-height: 20vh;
+    min-width: 100%;
+}
+
+/* footer starts */
+
+footer
+{
+margin-top: 0;
+min-height: 55px;
+text-align: right;
+background: rgba(0,0,16,1);
+color: #f0f0f0;
+padding: 2rem;
+border-top: 1px solid #80c1d0;
+}
+
+footer p, a
+{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+/* media start */
+
+@media only screen and (max-width: 720px) 
+{
+    #nav-bar
+    {
+        justify-content: center;
+        height: 70px;
+    }
+    .nav-bar-link 
+    {
+        font-size: 22px;
+        padding-top: 2px;
+    }
+    #section-intro h1
+    {
+        font-size: 20px;
+    }
+
+    #section-intro p
+    {
+        font-size: 13px;
+    }
+
+     p
+    {
+        font-size: 10px;
+    }
+}
+
+
+/* tool bar definitions */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #353b48;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f2f2f2;
+}

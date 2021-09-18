@@ -1,0 +1,139 @@
+html {
+    font-family: 'Hahmlet', monospace;
+}
+
+main {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 65%;
+    padding: 30px;
+    background-color: rgba(02, 02, 02, 0.75);
+    border-radius: 5%;
+    line-height: 1.5;
+    color: #f2f2f2;
+    font-size: 1.5rem;
+}
+
+body {
+    content: '';
+    top: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-image: url(https://images.pexels.com/photos/355887/pexels-photo-355887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.form-group {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    color: #f2f2f2;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+#survey-form {
+    padding: 0.2rem;
+}
+
+.textarea {
+    min-height: 120px;
+    min-width: 99.5%;
+    max-width: 99.5%;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #f2f2f2;
+}
+
+.form-group {
+    margin-top: 0.5fr;
+    font-size: 1.5rem;
+    margin-bottom: 0.75fr;
+    display: block;
+    margin-left: auto;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#check-group {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f2f2f2;
+}
+
+.checkbox {
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    cursor: pointer;
+}
+
+.input-radio {
+    padding: 10px;
+    display: inline;
+    align-items: center;
+    cursor: pointer;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    margin-right: 1rem;
+}
+
+#name-label, #number-label, #age-label {
+    align-self: left;
+}
+
+#name, #number, #email, #dropdown {
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0.2rem;
+    font-size: 0.9rem;
+    min-height: 30px;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    display: flexbox;
+    font-size: 1.9rem;
+    color: #f2f2f2;
+}
+
+ #title {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    font-size: 2.8rem;
+    color: #f2f2f2;
+}
+
+#submit {
+    display: block;
+    background: #2559b9;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border-color: #2559b9;
+    font-size: 1.2rem;
+    color: #f2f2f2;
+}
+
+#submit:hover {
+    background: #2559b9c5;
+    cursor: pointer;
+}
+
+#dropdown:hover {
+    cursor: pointer;
+}

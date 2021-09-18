@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+body {
+    color: black;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    border-top: 1px solid;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+#navbar header {
+    font-size: 1.6rem;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#navbar ul {
+    padding: 0;
+}
+
+.main-section {
+    color: black;
+    text-align: left;
+    padding: 1rem;
+}
+
+section header {
+    font-size: 2rem;
+    margin-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.1;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    padding-right: 0.85em;
+}
+
+section article {
+    font-size: 1.1rem;
+    line-height: 1.1;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    padding-right: 0.85em;
+}
+
+section li {
+    font-size: 1.1rem;
+    margin: 0.5em 0px 0px 4em;
+}
+
+#section-div {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 78%;
+    padding: 10px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#movedown {
+    margin-top: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: 500;
+}
