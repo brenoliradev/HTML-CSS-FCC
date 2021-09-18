@@ -1,2 +1,3 @@
-# FCC-projects
-A repository to insert my projects from [my account in freeCodeCamp](https://www.freecodecamp.org/lirbre)!
+See my projects clicking [here!](https://www.freecodecamp.org/certification/lirbre/responsive-web-design)
+
+When studying HTML-CSS on freeCodeCamp I noticed that I'm learn better doing projects than just seing tutorials. 
